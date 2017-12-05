@@ -8,10 +8,6 @@ import java.util.stream.Collectors;
 
 public final class Automata {
 
-    private String name;
-
-    private Integer priority;
-
     private Set<String> alphabet;
 
     private Set<String> initialState;
@@ -68,14 +64,6 @@ public final class Automata {
                 .isEmpty();
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setPriority(Integer priority) {
-        this.priority = priority;
-    }
-
     public void setAlphabet(Set<String> alphabet) {
         this.alphabet = alphabet;
     }
@@ -98,14 +86,6 @@ public final class Automata {
 
     public void setCurrentState(Set<String> currentState) {
         this.currentState = currentState;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public Integer getPriority() {
-        return priority;
     }
 
     public Set<String> getAlphabet() {

@@ -1,6 +1,4 @@
 {
-    "name": "Real",
-    "priority": 2,
     "initialState": [
         "A"
     ],

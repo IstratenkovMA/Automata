@@ -5,10 +5,6 @@ import java.util.Set;
 
 public class JsonInput {
 
-    private String name;
-
-    private Integer priority;
-
     private Set<String> alphabet;
 
     private Set<String> initialState;
@@ -17,21 +13,6 @@ public class JsonInput {
 
     private Map<String, Map<String, Set<String>>> matrixOfTransitions;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Integer getPriority() {
-        return priority;
-    }
-
-    public void setPriority(Integer priority) {
-        this.priority = priority;
-    }
 
     public Set<String> getAlphabet() {
         return alphabet;

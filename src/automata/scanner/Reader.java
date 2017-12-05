@@ -14,8 +14,6 @@ public class Reader {
                 new ObjectMapper().readValue(new File(fileName), JsonInput.class);
 
         Automata automata = new Automata();
-        automata.setName(inputEntity.getName());
-        automata.setPriority(inputEntity.getPriority());
         automata.setAlphabet(inputEntity.getAlphabet());
         automata.setInitialState(inputEntity.getInitialState());
         automata.setFinalState(inputEntity.getFinalState());
